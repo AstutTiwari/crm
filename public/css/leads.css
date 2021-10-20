@@ -1,0 +1,651 @@
+/*Property Leads CSS Start*/
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+.lease-section .section-title-top {
+    margin-bottom: 10px;
+}
+.leads-table-card .btn-top.btn-primary:hover,
+.leads-table-card .btn-top.btn-primary:active,
+.leads-table-card .btn-top.btn-primary:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.leads-section .top-bar-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.leads-table-card .btn-top.btn-primary {
+    background-color: transparent;
+    margin-left: 15px;
+    border-radius: 0;
+    font-size: 20px;
+    color: #336ed1;
+    border: medium none;
+    font-weight: 600;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.leads-table-card h4.header-title {
+    font-size: 22px;
+}
+.dataTable tbody tr td span.badge {
+    font-size: .875rem;
+    background-color: transparent !important;
+}
+.leads-table-card button.btn.btn-primary:hover,
+.leads-table-card button.btn.btn-primary:active,
+.leads-table-card button.btn.btn-primary:focus{
+    color: #336ed1;
+    background-color: transparent; ;
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.leads-table-card .dataTables_wrapper .dropdown .dropdown-toggle,
+.leads-table-card .dataTables_wrapper .dropdown .dropdown-toggle:hover,
+.leads-table-card .dataTables_wrapper .dropdown .dropdown-toggle:active,
+.leads-table-card .dataTables_wrapper .dropdown .dropdown-toggle:focus {
+    background-color: transparent;
+    border: medium none;
+    outline: 0 none;
+    box-shadow: unset !important;
+}
+.leads-table-card .dataTables_wrapper .dropdown-menu.show {
+    border-radius: 0;
+}
+.leads-table-body .dataTables_wrapper .dropdown-menu .dropdown-item {
+    margin-left: 0;
+    /*border-bottom: 1px solid;*/
+    font-weight: 600;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    font-size: 18px;
+}
+.leads-table-card .dataTables_wrapper .dropdown-menu .dropdown-item:hover {
+    background-color: #D0D3D8;
+}
+.leads-table-body .dataTables_wrapper .dropdown-menu.show {
+    border-radius: 0;
+    /* min-width: 220px; */
+    padding-left: 0;
+    padding-right: 0;
+    /*padding-bottom: 15px;*/
+    background-color: #F3F7F9;
+}
+.leads-table-body .dataTables_wrapper .dropdown-menu .dropdown-item,
+.leads-table-body .dataTables_wrapper .dropdown-menu .dropdown-item .text-muted{
+    color: #336ed1 !important; 
+}
+.leads-table-body .table.dataTable {
+    border: 1px solid #ccc;
+    position: relative;
+}
+/*.leads-table-card .dropdown-menu .dropdown-item.change_status,
+.leads-table-card .dropdown-menu .dropdown-item.change_status .text-muted{
+    color: #5cb85c !important; 
+}
+.leads-table-card .dropdown-menu .dropdown-item.delete,
+.leads-table-card .dropdown-menu .dropdown-item.delete .text-muted{
+    color: #f86262 !important; 
+}*/
+.filter-section button.btn.btn-primary {
+    border-radius: 0;
+    min-width: 120px;
+    background-color: #346dd1;
+    border-color: #346dd1;
+}
+.filter-section button.btn.btn-primary:hover,
+.filter-section button.btn.btn-primary:active,
+.filter-section button.btn.btn-primary:focus {
+    background-color: #346dd1;
+    border-color: #346dd1;
+    box-shadow: unset !important;
+    outline: 0 none !important;
+    opacity: 0.9;
+    color: #fff;
+}
+.dataTable thead tr{
+    color: #fff;
+    background-image: linear-gradient(to right, #843fce, #346dd1);
+}
+.dataTable thead tr *::before,
+.dataTable thead tr *::after{
+    opacity: 0.8 !important;
+}
+.leads-table-card button.btn.btn-primary i{
+    font-size: 20px;
+}
+.dataTables_filter input.form-control,
+.dataTables_length .form-control{
+    border-radius: 0;
+    min-height: 34px;
+    margin-left: 10px !important;
+}
+.dataTables_length .form-control{
+    margin-right: 10px !important;
+}
+.filter-section .form-group:last-child {
+    max-width: 145px;
+}
+/*.dataTable tbody tr.even {
+    background-color: #F3F7F9;
+}*/
+.dataTable tbody tr td {
+    vertical-align: middle;
+}
+.dataTable tbody tr:hover{
+    background-color: rgba(51, 110, 209, 0.1);
+    cursor: pointer;
+}
+
+.dataTable tbody tr td span{
+   display: inline-block;
+   margin-top: 5px;
+}
+.dataTable tbody tr td a{
+    cursor: pointer;
+}
+.dataTable tbody tr td a + a {
+    margin-left: 5px;
+}
+.dataTable tbody tr td a i{
+    font-size: 20px;
+}
+.dataTable tbody tr td a .mdi-pencil{
+    color: #336ed1;
+}
+.dataTable tbody tr td a .mdi-delete{
+    color: #f86262;
+}
+.pagination-rounded .page-link{
+    border-radius: 0 !important;
+}
+.page-item.active .page-link {
+    background-color: #336ed1;
+    border-color: #336ed1;
+}
+.dataTable tbody td.dataTables_empty {
+    background-color: rgba(248,98,98,.18);
+    color: #f86262;
+}
+.leads-table-card .bootstrap-select>.dropdown-toggle,
+.leads-table-card .bootstrap-select>.dropdown-toggle:hover,
+.leads-table-card .bootstrap-select>.dropdown-toggle:active,
+.leads-table-card .bootstrap-select>.dropdown-toggle:focus {
+    height: 100%;
+    border-radius: 0;
+    border: medium none;
+    box-shadow: unset !important;
+    background-color: transparent;
+    z-index: 1;
+}
+.leads-table-card .bootstrap-select,
+.leads-table-card .bootstrap-select:hover,
+.leads-table-card .bootstrap-select:active,
+.leads-table-card .bootstrap-select:focus {
+    border-radius: 0;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+    outline: 0 none !important;
+    /*box-shadow: unset !important;*/
+    /*box-shadow: 1px 1px 6px #ccc !important;*/
+}
+.filter-section .row {
+    justify-content: flex-end;
+    align-items: center;
+}
+.filter-section .custom-control.custom-checkbox {
+    padding: .5rem;
+    padding-left: 2.25rem;
+    border-radius: 0;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.filter-section .custom-control-label{
+    width: 100%;
+}
+.leads-table-card table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before, 
+.leads-table-card table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before{
+    top: 2.25rem;
+}
+.section-title-top {
+    display: flex;
+    justify-content: space-between;
+}
+.filter-section .cal-icon .mdi-calendar-range {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 18px;
+    z-index: -1;
+}
+.filter-section .form-group.cal-icon .form-control {
+    padding-right: 1.5rem;
+    min-width: 190px;
+    background-color: transparent;
+    z-index: 1;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone {
+    height: 160px;
+    background-color: #dee3eb;
+    border: 2px solid #dee3eb;
+    background-image: unset;
+    border-radius: 0;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone_wrap::after {
+    position: absolute;
+    content: "Drag and Drop to Upload";
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+.doc-group .ff_fileupload_wrap .ff_fileupload_dropzone::after {
+    position: absolute;
+    content: "Select Document";
+    background-color: #3283f6;
+    color: #fff;
+    padding: .5rem 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.file-uploads-custom {
+    width: 100%;    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul.each-upload {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+ul.each-upload li:nth-child(2) a {
+    max-width: 100%;
+    height: 18px;
+    overflow: hidden !important;
+    display: inline-block;
+    position: relative;
+}
+ul.each-upload li .fa-file-alt {
+    font-size: 32px;
+    margin-right: 10px;
+}
+ul.each-upload li:nth-child(2) {
+    max-width: calc(100% - 85px);
+    width: 100%;
+}
+ul.each-upload li .fa-trash-alt {
+    color: #f86262;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.form-group.doc-group.col-md-12 {
+    padding: 0;
+}
+.doc-modal button.image-guide.btn.btn-light, 
+.doc-modal button.image-guide.btn.btn-light:hover, 
+.doc-modal button.image-guide.btn.btn-light:active, button.image-guide.btn.btn-light:focus {
+    background-color: transparent;
+    border: medium none;
+    padding: 0;
+    box-shadow: unset !important;
+    outline: 0 none !important;
+}
+.doc-modal .form-group .image-guide {
+    height: 18px;
+    line-height: 18px;
+}
+.doc-modal button.image-guide.btn.btn-light i {
+    font-size: 20px;
+    color: #666;
+}
+.lease-create-section #lease-form .form-group.no-icon .form-control{
+    padding-left: .5rem;
+}
+/*Property Leads CSS End*/
+/*Lease create page CSS Start*/
+.lease-create-section #lease-form .form-group .form-control{
+    padding-left: 25px;
+}
+.lease-create-section #lease-form i.mdi-calendar-range {
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+}
+/*Lease create page CSS End*/
+/*Send Invitation page CSS Start*/
+.invitation-section .leads-table-card {
+    max-width: 500px;
+    margin: 30px auto;
+}
+.invitation-section label.error, .invitation-section label.is-invalid {
+    position: absolute;
+    left: 15px;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    bottom: -30px;
+    color: rgb(248, 98, 98);
+}
+.invitation-section .form-control{
+    border: 2px solid #ccc;
+    border-radius: 0;
+}
+.invitation-section .form-control.is-invalid{
+    border-color: rgb(248, 98, 98);
+}
+.invitation-section .bootstrap-select>.dropdown-toggle {
+    height: 100%;
+    border-radius: 0;
+    border: medium none;
+}
+.invitation-section .bootstrap-select.is-invalid{
+    border-color: rgb(248, 98, 98);
+}
+.invitation-section label span.required{
+    color: rgb(248, 98, 98);
+}
+.invitation-section .bootstrap-select>.dropdown-toggle {
+    height: 100%;
+    border-radius: 0;
+    border: medium none;
+}
+.invitation-section .bootstrap-select {
+    border-radius: 0;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;
+}
+.invitation-section .bootstrap-select.is-invalid{
+    border-color: rgb(248, 98, 98) !important;
+}
+.invite-radio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.invite-radio p.mb-1 {
+    width: 100%;
+}
+.invite-radio .custom-control {
+    width: 33%;
+}
+.invitation-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.invitation-btn .btn {
+    font-size: 20px;
+    border: 2px solid #336ed1;
+    border-radius: 0;
+    min-width: 140px;
+    color: #336ed1;
+}
+.invitation-btn .btn.btn-invite {
+    background-color: #336ed1;
+    color: #fff;
+    margin-left: 30px;
+}
+.invitation-btn .btn:hover{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+    opacity: 0.9;
+}
+.invite-radio label.col-form-label {
+    width: 100%;
+}
+.invitation-section h3.invitee-title {
+    margin-top: 0;
+}
+.invitation-sent {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.invitation-sent .invitation-btn {
+    justify-content: space-between;
+    max-width: 460px;
+    margin: 0 auto;
+}
+.invitation-sent i.mdi-check-circle-outline {
+    font-size: 100px;
+    color: #336ed1;
+    line-height: 100px;
+}
+.invitation-sent p {
+    max-width: 292px;
+    margin: 0 auto 30px;
+}
+.invitation-sent .invitation-btn button.btn {
+    margin-bottom: 10px;
+}
+.title-right {
+    min-width: 360px;
+}
+.filter-section .form-group {
+    max-width: 200px;
+    /*z-index: 1;*/
+}
+.col-sm-6.form-group.cal-icon {
+    z-index: 1;
+}
+.section-title-top .sub-header {
+    margin-bottom: 10px;
+}
+.leads-section .top-bar-section a.btn-success {
+    border-radius: 0;
+    font-size: 20px;
+}
+.leads-section .top-bar-section a.btn-cancel {
+    border: 2px solid #336ed1;
+    border-radius: 0;
+    font-size: 20px;
+    color: #336ed1;
+}
+.filter-section .form-group.mb-2.col-md-2 {
+    max-width: 150px;
+}
+/*Send Invitation page CSS End*/
+/*Add renter CSS Strat*/
+.invitation-section.renter-add-section .leads-table-card {
+    max-width: 560px;
+}
+.renter-check label.custom-control-label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.renter-check label.custom-control-label::before,
+.renter-check label.custom-control-label::after{
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.renter-check .custom-control-input[type=checkbox] {
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.renter-check  .custom-control {
+    padding-left: 3rem;
+}
+.renter-info {
+    padding: 1rem 0;
+}
+.renter-info h4{
+    text-transform: capitalize;
+}
+.renter-info h4,.renter-info p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.renter-check .custom-control-input:checked~.custom-control-label{
+   border-color: #336ed1; 
+}
+.show-all-renter .btn {
+    color: #336ed1;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.show-all-renter .btn + .btn {
+    margin-left: 15px;
+}
+.show-all-renter .btn:focus{
+    outline: 0 none !important;
+    box-shadow: unset !important;
+}
+.renter-add-section h3.invitee-title {
+    font-weight: 600;
+}
+.renter-add-section .invitation-btn {
+    margin-bottom: 8px;
+}
+/*Add renter CSS End*/
+/*Responsive Design CSS Start*/
+@media screen and (min-width: 1200px){
+.content-page .container-fluid {
+    max-width: 1320px;
+    padding: 0 60px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 911px){
+.filter-section .form-group {
+    padding-left: 0;
+}
+.filter-section .mdi-calendar-range {
+    left: 5px;
+}
+}
+@media screen and (max-width: 767px){
+div.dataTables_wrapper div.dataTables_length label {
+    width: 100%;
+}
+.filter-section .form-group:last-child {
+    max-width: 100%;
+    text-align: right;
+}
+.filter-section .form-group.mb-2.col-md-2 {
+    max-width: 150px;
+}
+}
+@media screen and (min-width: 576px){
+.dataTables_wrapper .row:first-child {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.dataTables_wrapper .row .col-sm-12.col-md-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+}
+@media screen and (max-width: 575px){
+.dataTables_wrapper .row .col-sm-12.col-md-6 .dataTables_length,
+.dataTables_wrapper .row .col-sm-12.col-md-6 .dataTables_filter {
+    text-align: left;
+}
+.section-title-top {
+    flex-wrap: wrap;
+}
+.section-title-top p.sub-header {
+    margin-bottom: 10px;
+}
+.section-title-top .title-right {
+    min-width: 100%;
+}
+.leads-table-card .btn-top.btn-primary{
+    font-size: 16px;
+}
+.leads-table-card .btn-top.btn-primary {
+    margin-left: 0;
+    margin-right: 0px;
+}
+.leads-table-card .btn-top.btn-primary#filterBtn{
+    margin-right: 5px;
+}
+.section-title-top .title-right {
+    min-width: 100%;
+}
+.leads-table-card .title-right {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.invitation-sent .invitation-btn {
+    flex-direction: column;
+}
+.invitation-sent .invitation-btn button.btn.btn-invite {
+    margin-bottom: 30px;
+    margin-left: 0 !important;
+}
+.card-body.leads-table-body {
+    padding: 1rem;
+}
+}
+@media screen and (max-width: 414px){
+.show-all-renter .btn + .btn {
+    margin-left: 0px;
+}
+.leads-table-body .filter-section .form-group {
+    max-width: 100%;
+}
+.filter-section .cal-icon .mdi-calendar-range {
+    right: 20px;
+}
+}
+@media screen and (max-width: 375px){
+.leads-table-card .btn-top.btn-primary{
+    font-size: 15px;
+}
+.col-sm-6.form-group.cal-icon {
+    margin-right: 15px;
+}
+.invitation-btn button.btn {
+    min-width: 110px;
+}
+.invite-radio {
+    justify-content: space-between;
+}
+.invite-radio .custom-control {
+    width: auto;
+}
+.invitation-sent .invitation-btn button.btn {
+    font-size: 19px;
+}
+.renter-add-section .invitation-btn button.btn {
+    font-size: 16px;
+}
+.renter-add-section .invitation-btn button.btn.btn-invite {
+    margin-left: 10px;
+}
+.leads-section .top-bar-section a.btn-success,
+.leads-section .top-bar-section a.btn-cancel {
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 320px){
+.invitation-btn button.btn.btn-invite {
+    margin-left: 10px;
+}
+.invitation-btn .btn {
+    font-size: 18px;
+}
+}
+/*Responsive Design CSS End

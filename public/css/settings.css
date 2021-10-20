@@ -1,0 +1,121 @@
+/*Property Leads CSS Start*/
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+    font-family: 'Muli', sans-serif;
+}
+p{
+    color: #666;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+p.lead{
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    font-family: 'Muli', sans-serif;
+}
+.settings-page {
+    padding: 0 60px;
+    max-width: 1320px !important;
+}
+.settings-page .form-group span.required{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(248, 98, 98);
+}
+.settings-page .form-control{
+    height: calc(2em + .9rem + 2px);
+    border-radius: 0;
+    padding: .3rem .9rem;
+    border: 2px solid #ced4da;
+    box-shadow: 1px 1px 6px #ccc !important;}
+.settings-page .form-control.is-invalid, 
+.settings-page .was-validated .form-control:invalid {
+    border-color: #f86262;
+}
+.settings-page label.error, .settings-page label.is-invalid {
+    position: absolute;
+    left: 15px;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(248, 98, 98);
+    top: 100%;
+}
+.form-group.btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-group button.btn,.btn-group a.btn {
+    border-radius: 0;
+    border-width: 2px;
+    max-width: 120px;
+    margin-left: 20px !important;    
+    border-color: #336ed1;
+    font-size: 20px;
+    padding: .25rem 1.5rem;
+    transition: all .3s;
+}
+.btn-group .btn.btn-primary{
+    background-color: #336ed1;
+}
+.btn-group .btn:hover,.btn-group .btn.btn-primary:hover,
+.btn-group .btn:active,.btn-group .btn.btn-primary:active,
+.btn-group .btn:focus,.btn-group .btn.btn-primary:focus{
+    outline: 0 none;
+    box-shadow: unset;
+    background-color: #4938d7;
+    border-color: #3f2ed4;
+    color: #fff;
+}
+ul.instruction-list {
+    margin-bottom: 20px;
+}
+.instruction-list li .number {
+    margin-right: 8px;
+    color: #346dd1;
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #346dd1;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+.instruction-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.application-card .row{
+    align-items: center;
+}
+@media screen and (min-width: 768px){
+.settings-form-section {
+    border-left: 2px solid #336ed1;
+    padding-left: 30px;
+}
+.instruction-steps {
+    padding-right: 30px;
+}
+}
+@media screen and (max-width: 414px){
+.settings-page {
+    padding: 0 12px;
+    max-width: 580px !important;
+}  
+}
