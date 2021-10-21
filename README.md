@@ -1,4 +1,4 @@
-# tenantden
+# CRM
 
 Steps setup at local server:
 1. git clone
